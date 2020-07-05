@@ -20,7 +20,7 @@ mkdir --parents $HOME/.local/share/color-schemes/
 cd $HOME/.local/share/color-schemes/
 
 # put fantasy blue colorscheme here
-curl https://raw.githubusercontent.com/L4ki/Fantasy-Blue/master/colors > FantasyBlue.colors
+curl https://raw.githubusercontent.com/22i/customizekdescript/master/FantasyBlue.colors > FantasyBlue.colors
 
 
 
