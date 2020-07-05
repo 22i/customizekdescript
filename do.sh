@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-mkdir $HOME/.local/share/plasma/desktoptheme/
+mkdir --parents $HOME/.local/share/plasma/desktoptheme/
 
 cd $HOME/.local/share/plasma/desktoptheme/
 
