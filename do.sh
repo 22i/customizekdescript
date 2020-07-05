@@ -43,8 +43,12 @@ git clone https://github.com/22i/blue22i
 
 
 # sets this as look and feel or global theme
-# lookandfeeltool -a 'org.kde.breeze.desktop
+lookandfeeltool --apply blue22i
 
-lookandfeeltool -a blue22i
+# Changes kwriterc schema to Vim (dark)
+sed -i 's/Schema=.*/Schema=Vim (dark)/' $HOME/.config/kwriterc
+
+
+
 
 echo done everything
